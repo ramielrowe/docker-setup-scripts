@@ -1,0 +1,8 @@
+NAME="vpn"
+DOMAIN_NAME="home.apmelton.com"
+VPN_PORT="21194"
+VPN_HOST=""
+INITIAL_CLIENT="client"
+
+VOLUME_CONTAINER="${NAME}_volumes"
+APP_CONTAINER="${NAME}"
