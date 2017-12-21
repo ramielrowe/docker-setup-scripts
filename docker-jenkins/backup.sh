@@ -2,4 +2,4 @@
 
 . env.sh
 
-docker cp ${NAME}_jenkins_volumes:/var/jenkins_home - > jenkins_home.tar.gz
+docker cp ${NAME}_jenkins_volumes:/var/jenkins_home - > ${NAME}_jenkins.tar.gz
